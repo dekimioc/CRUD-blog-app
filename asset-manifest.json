@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CRUD-blog-app/static/css/main.e89cdb12.chunk.css",
+    "main.js": "/CRUD-blog-app/static/js/main.fc106437.chunk.js",
+    "main.js.map": "/CRUD-blog-app/static/js/main.fc106437.chunk.js.map",
+    "runtime-main.js": "/CRUD-blog-app/static/js/runtime-main.90918f8a.js",
+    "runtime-main.js.map": "/CRUD-blog-app/static/js/runtime-main.90918f8a.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/CRUD-blog-app/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.7a07cf49.chunk.js": "/CRUD-blog-app/static/js/2.7a07cf49.chunk.js",
+    "static/js/2.7a07cf49.chunk.js.map": "/CRUD-blog-app/static/js/2.7a07cf49.chunk.js.map",
+    "index.html": "/CRUD-blog-app/index.html",
+    "precache-manifest.35ac38b6cf866f014c5ac81903d3d92c.js": "/CRUD-blog-app/precache-manifest.35ac38b6cf866f014c5ac81903d3d92c.js",
+    "service-worker.js": "/CRUD-blog-app/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/CRUD-blog-app/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.e89cdb12.chunk.css.map": "/CRUD-blog-app/static/css/main.e89cdb12.chunk.css.map",
+    "static/js/2.7a07cf49.chunk.js.LICENSE.txt": "/CRUD-blog-app/static/js/2.7a07cf49.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90918f8a.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.7a07cf49.chunk.js",
+    "static/css/main.e89cdb12.chunk.css",
+    "static/js/main.fc106437.chunk.js"
+  ]
+}
