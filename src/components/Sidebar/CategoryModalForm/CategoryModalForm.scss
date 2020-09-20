@@ -1,0 +1,23 @@
+@mixin sm {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+
+.categorymodalform-cont {
+  padding: 30px;
+  border: 5px solid #595959;
+  padding: 25px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  .form-inner-field {
+    input {
+      @include sm {
+        width: 120px;
+      }
+    }
+  }
+}

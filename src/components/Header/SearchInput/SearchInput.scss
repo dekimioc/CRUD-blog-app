@@ -1,0 +1,14 @@
+@mixin sm {
+  @media (max-width: 400px) {
+    @content;
+  }
+}
+
+.search-input-header {
+  @include sm {
+    width: 140px;
+  }
+  &:focus {
+    outline: none;
+  }
+}

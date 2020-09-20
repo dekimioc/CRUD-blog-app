@@ -1,0 +1,11 @@
+.error-message-container {
+  -webkit-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 30px;
+  border: 10px solid #ff6666;
+  .color-error {
+    color: #e60000;
+  }
+}

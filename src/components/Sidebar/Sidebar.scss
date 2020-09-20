@@ -1,0 +1,19 @@
+.main-sidebar {
+  border: 5px solid #595959;
+  padding: 25px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  background: #fff;
+  // margin-top: 4rem;
+
+  .category-link {
+    cursor: pointer;
+    transition: all 0.4s linear;
+    &:hover {
+      color: gray;
+    }
+  }
+}

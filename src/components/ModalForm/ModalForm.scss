@@ -1,0 +1,67 @@
+@mixin md {
+  @media (max-width: 692px) {
+    @content;
+  }
+}
+
+.form-container {
+  position: fixed;
+  z-index: 999;
+  background-color: #fff;
+  top: 25%;
+  width: 65%;
+  // left: 0;
+  // right: 1.5rem;
+  // margin: 0 auto;
+  padding: 30px;
+  border: 5px solid #595959;
+  padding: 25px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 3px 24px -9px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  @include md {
+    width: 90%;
+    top: 15%;
+  }
+
+  .form-inner-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input {
+      width: 300px;
+      @include md {
+        width: 200px;
+      }
+    }
+    textarea {
+      width: 300px;
+      height: 220px;
+      @include md {
+        width: 200px;
+        height: 180px;
+      }
+    }
+  }
+  .button-container {
+    width: 260px;
+    @include md {
+      width: 200px;
+    }
+    .submit-button {
+      background: black;
+      color: #fff;
+      padding: 7px 20px;
+      border: 3px solid #fff;
+    }
+    .disabledButton {
+      background: #ff6666;
+      color: #fff;
+      padding: 7px 20px;
+      border: 3px solid #fff;
+      cursor: not-allowed;
+    }
+  }
+}

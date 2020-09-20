@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Container from './components/Container/Container';
+import Sidebar from './components/Sidebar/Sidebar';
+import TopContent from './components/TopContent/TopContent';
+import Header from './components/Header/Header';
+import PostCard from './components/CardsWrapper/PostCard/PostCard';
 
 function App() {
+  const [inputValue, setInputValue] = useState('');
+
+  const headerInputHandler = (e) => {
+    e.preventDefault();
+    setInputValue(e.currentTarget.value);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header inputValue={(e) => headerInputHandler(e)} />
+      <Container>
+        <TopContent />
+        <Sidebar />
+        <div className="col-md-8 col-lg-8 col-sm-12 col-12 ">
+          <PostCard headerValue={inputValue} />
+        </div>
+      </Container>
+    </>
   );
 }
 
