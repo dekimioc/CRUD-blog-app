@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ddd6b1e2a74462103a301f04a3ebd3b0",
+    "revision": "4af74992775b26fd2859d2806325888f",
     "url": "/CRUD-blog-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CRUD-blog-app/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "0075d46abfacca4206fe",
+    "revision": "cbc9daa636bd4d45aafb",
     "url": "/CRUD-blog-app/static/css/main.e89cdb12.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CRUD-blog-app/static/js/2.7a07cf49.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0075d46abfacca4206fe",
-    "url": "/CRUD-blog-app/static/js/main.fc106437.chunk.js"
+    "revision": "cbc9daa636bd4d45aafb",
+    "url": "/CRUD-blog-app/static/js/main.f88b4c0b.chunk.js"
   },
   {
     "revision": "84a0c767c7995ec3d219",
