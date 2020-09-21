@@ -205,7 +205,7 @@ const PostCard = (props) => {
     console.log(posts);
 
     // filtering Cards Elements from search input
-    const filteredCards = postsCard.filter(item => item.props.datatitle.includes(props.headerValue));
+    const filteredCards = postsCard.filter(item => item.props.datatitle.toLowerCase().includes(props.headerValue.toLowerCase()));
 
     if (errorStatus) {
         return <ErrorModal errorText={errorMessage} />
